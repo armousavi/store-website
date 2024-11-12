@@ -1,0 +1,290 @@
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    html {
+        font-size: 50%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 140%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem 5%;
+    }
+
+    .nav-bar a {
+        margin-left: 2rem;
+        padding-left: 2rem;
+        font-size: 1.6rem;
+        float: right;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 130%;
+    }
+
+    .products {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    .products {
+        width: 100%;
+    }
+
+    .header {
+        padding: 1rem 2%;
+    }
+
+    .nav-bar a {
+        margin-left: 1rem;
+        font-size: 1.4rem;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .nav-bar a {
+        font-size: 1.6rem;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 5%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-bar a {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 5rem 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .nav-bar a {
+        font-size: 1.2rem;
+    }
+
+    .cart-count {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding: 0 20px; 
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 3rem;
+    }
+
+    .social-items a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .home-content p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 2.5rem;
+        padding: 20px 40px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .products {
+        width: calc(45% - 20px); 
+    }
+}
+
+@media (max-width: 768px) {
+    .products {
+        width: calc(100% - 20px);
+    }
+
+    .shop h1,
+    .form h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .shop h1,
+    .form h1 {
+        font-size: 2.5rem; 
+    }
+
+    .label {
+        font-size: 1.3rem; 
+    }
+
+    .price {
+        font-size: 1.4rem; 
+    }
+
+    .description {
+        font-size: 0.9rem; 
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .col-25,
+    .col-75 {
+        float: none; 
+        width: 100%; 
+    }
+
+    label {
+        font-size: 1.4rem;
+    }
+
+    .btn-form {
+        font-size: 1.4rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .list li {
+        margin: 10px 0; 
+    }
+}
+
+@media (max-width: 768px) {
+    blockquote {
+        width: 90%; 
+        font-size: 1.5rem; 
+    }
+}

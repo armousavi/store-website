@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/queries.css">
+    <link rel="stylesheet" href="assets/images/">
+    <script src="https://kit.fontawesome.com/7440156d1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    
+    <header class="header">
+        <a href="#home" class="logo" >Ahmadreza<span>Mousavi</span></a>
+        
+        <nav class="nav-bar">
+            <div class="row"> 
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="cart.html" class="cart-icon">
+              <i class="fa-solid fa-bag-shopping" id="goToCart"></i>
+              <span id="cartCount" class="cart-count">0</span> 
+          </a>
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+ 
+            <h1>Welcome To <br> <span><div class="btn-group">
+                <a href="#shop" class="btn" >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Shopping   
+                </a>
+            </div></span></h1>
+        
+            <div class="social-items"> 
+                <label for="">Follow Us On Social Media</label>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>      
+        </div>  
+    </section>
+
+    <section class="shop" id="shop">
+        <h1>Products</h1>
+        
+        <select id="priceFilter">
+          <option value="">All Prices</option>
+          <option value="0-100">0-100 $</option>
+          <option value="101-300">100-300 $</option>
+          <option value="301-700">300-700 $</option>
+          <option value="701-1000">700-1000 $</option>
+      </select>
+      
+        <select id="categorySelect">
+            <option value="">All Products</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelery</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+        </select>
+
+
+        <div id="products"></div>
+
+        
+    </section>
+
+
+
+    <section class="about" id="about">
+      <h1>About Us</h1>
+
+        <div>
+            <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos illo perspiciatis rem praesentium id voluptate ullam, hic vitae? Cumque ut numquam provident modi optio molestiae! Tempore, tempora porro iure optio ut suscipit quos quam minima harum odio aut quo doloribus architecto dolorem quisquam corporis laborum vel repellendus veritatis rem? Quas quasi at vero soluta voluptate, consequuntur sunt consequatur quibusdam a laboriosam est dicta ex, deleniti ipsum. Dolore autem amet accusantium animi voluptatum aliquam, consequuntur, consequatur aliquid nobis, obcaecati fugit nostrum. 
+            </blockquote>
+          </div>
+
+  </section>
+
+
+    <section class="form" id="contact">
+      <h1>Contact Us</h1>
+        
+        <div class="contact-form">
+            <form >
+            <div class="row">
+              <div class="col-25">
+                <label for="name">Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="name" name="name" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="email" id="email" name="email" placeholder="Your email..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="find-us">How did you find us?</label>
+              </div>
+              <div class="col-75">
+                <select class="find-us" name="find-us">
+                  <option value="media">social media</option>
+                  <option value="friends">friends</option>
+                  <option value="other">other way</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Drop us a line ?</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <input class="btn-form" type="submit" value="Submit">
+            </div>
+            </form>
+          </div>
+          
+      </section>
+
+      <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#" id="Services">Services</a></li>
+            <li><a href="#" id="home">About Us</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+        </ul>
+    
+        <div class="time"></div>
+    
+        <p class="copyright">
+            copyright &copy; 2015. All rights reserved.
+        </p>
+    </footer>
+    
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
